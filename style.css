@@ -52,8 +52,8 @@ nav a {
     font-size: 16px;
     color: #e6e6e6;
     text-decoration: none;
-    transition: color 0.3s, border-bottom 0.3s;
-    padding-bottom: 4px;
+    transition: color 0.3s
+    padding-bottom 4px;
     position: relative;
 }
 
@@ -77,5 +77,21 @@ nav ul li a {
 
 nav a:hover{
     color: #1b1b1b;
-    border-bottom: 2px solid #e6e6e6;
 }
+
+nav a::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 0;
+    height: 2px;
+    background-color: #ffffff;
+    transition: width 0.5s;
+}
+
+nav a:hover::after {
+
+    width: 100%;
+}
+

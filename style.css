@@ -12,14 +12,11 @@ h1 {
 
 
 #Discoverparagraph {
-
     border: 10px outset chocolate;
-    padding: 50px;
-       
+    padding: 50px;  
 }
 
 .grey {
-
     border: 10px outset grey;
     padding: 50px;
 }
@@ -27,7 +24,6 @@ h1 {
 /* Navigation Styles */
 
 nav {
-
     position: fixed;
     top: 0%;
     left: 0%;
@@ -91,7 +87,6 @@ nav a::after {
 }
 
 nav a:hover::after {
-
     width: 100%;
 }
 

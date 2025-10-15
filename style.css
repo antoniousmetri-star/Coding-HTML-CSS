@@ -4,21 +4,56 @@ h1 {
     color: rgb(42, 61, 165);
 }
 
-#orangeparagraph {
+/* #orangeparagraph {
     font-size: 30px;
     font-family: Franklin Gothic Medium;
     color: rgb(255, 106, 0);
-}
-
+} */
 
 #Discoverparagraph {
     border: 10px outset chocolate;
     padding: 50px;  
 }
 
-.grey {
-    border: 10px outset grey;
-    padding: 50px;
+body {
+    background-color: #32323C;
+    font-family: monospace;
+}
+
+h2 {
+    font-size: 1.4 rem;
+    color: #e6e6e6;
+}
+
+
+
+.chapter-section {
+    background-color: rgba(255, 255, 255, 0.05);
+    /*border: 10px outset #a7a7a7;*/
+    padding: 20px;
+    border-radius: 8px;
+    margin: 88px auto;
+    max-width: 800px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.chapter-section h2 {
+    font-family: monospace;
+    font-size: 24px;
+    color: #e6e6e6;
+    margin-bottom: 5px;
+    border-bottom: 2px solid #e6e6e6;
+    padding-bottom: 5px;
+    display: inline-block;
+}
+
+.chapter-section p {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;    
+    font-size: 15px;
+    color: #e6e6e6;
+    line-height: 1.6;
+    text-align: justify;
 }
 
 /* Navigation Styles */

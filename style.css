@@ -4,11 +4,11 @@ h1 {
     color: rgb(42, 61, 165);
 }
 
-/* #orangeparagraph {
+#navparagraph {
     font-size: 30px;
     font-family: Franklin Gothic Medium;
     color: rgb(255, 106, 0);
-} */
+}
 
 #Discoverparagraph {
     border: 10px outset chocolate;
@@ -54,6 +54,11 @@ h2 {
     color: #e6e6e6;
     line-height: 1.6;
     text-align: justify;
+}
+
+.chapter-section address {
+    text-align: left;
+    color: #e6e6e660;
 }
 
 /* Navigation Styles */

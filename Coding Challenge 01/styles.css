@@ -1,0 +1,237 @@
+/* Navigatiob Bar Styles */
+
+.navbar {
+    display:inline-flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 0px 10px 0px;
+    margin: 10 auto;
+}
+
+.logo img {
+    height: 50px;
+    transition: 0.3s ease;
+}
+
+.logo img:hover {
+    color: #5e5e5e;
+    text-decoration: none;
+    opacity: 0.7;
+}
+
+nav {
+    position: fixed;
+    top: 0%;
+    left: 0%;
+    width: 100%;
+    z-index: 1000;
+    background-color: rgb(0, 0, 0);
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.52);
+}
+
+nav ul {
+    list-style-type: none;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline-block;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: color 0.3s ease;
+    font-family:Bahnschrift;
+}
+
+nav ul li a:hover {
+    color: #5e5e5e;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+/* Social Media Links Styles */
+
+.social-media {
+    margin-top: 0;
+    text-align: center;
+}
+
+.social-media a {
+    color: #e6e6e6;
+    font-size: 20px;
+    margin: 0 10px;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.social-media a:hover {
+    color: #5e5e5e;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+/* Thie The Main Section Styles */
+
+main {
+    padding: 80px 20px 20px 20px;
+    max-width: 1200px;
+}
+
+section {
+    margin-bottom: 40px;
+}
+
+section h2 {
+    font-size: 28px;
+    margin-bottom: 15px;
+    color: #333;
+    font-family: Bahnschrift;
+}
+
+/* This Is The Main Section Styles */
+
+.main-Section {
+    padding: 100px 20px 20px 20px;
+    max-width: 100%;
+    background:url(./images/portfolio.jpg);
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+    margin-top: 80px;
+    border-radius: 0px;
+}
+
+.main-Section h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+    color: #fff;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+    align-items: left;
+    font-family: Bahnschrift;
+}
+
+.main-Section section {
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    border-radius: 20px;
+    width: 100%;
+    max-width: 400px;
+}
+
+.main-Section section p {
+    font-size: 16px;
+    line-height: 1.6;
+    color: #000000;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* This Is The Button Styles */
+
+.button-content {
+    position: relative;
+    z-index: 1;
+    text-align: right;
+}
+.button-click {
+    color: #000000;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 10px;
+    font-family: Bahnschrift;
+}
+
+.button-click:hover {
+    background-color: rgb(0, 0, 0);
+    color: #ffffffdd;
+}
+
+/* Responsive Design */
+
+@media (max-width: 768px) {
+    nav ul li {
+        display: block;
+        margin: 10px 0;
+    }
+
+    .main-Section {
+        padding: 100px 10px 10px 10px;
+    }
+
+    .main-Section section {
+        max-width: 100%;
+    }
+}
+
+.main-Section .main-Section2 {
+    display:inline-flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: -50px;
+    background: none;
+}
+
+/* This Is The Footer Styles */
+
+footer {
+    background-color: rgb(0, 0, 0);
+    padding: 40px 0;
+    color: #e6e6e6;
+    text-align: center;
+    width: 100%;
+    margin-top: 5px;    
+}
+
+.footer-content {
+    max-width: 1200px;
+    padding: 0 20px;
+    align-items: center;
+
+}
+
+.footer-links ul {
+    gap: 20px;
+    list-style-type: none;
+    display: inline-flex;
+}
+
+.footer-links a {
+    color: #e6e6e6;
+    text-decoration: none;
+    transform: color 0.3s;
+    font-family: Bahnschrift;
+}
+
+.footer-links a:hover {
+    color: #5e5e5e;
+    text-decoration: none;
+    transform: color 0.3s;
+}
+
+.social-media {
+    margin-top: 0;
+}
+
+.social-media a {
+    color: #e6e6e6;
+    font-size: 20px;
+    margin: 0 10px;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.social-media a:hover {
+    color: #5e5e5e;
+    font-size: 20px;
+    margin: 0 10px;
+    text-decoration: none;
+    transition: color 0.3s;
+}
